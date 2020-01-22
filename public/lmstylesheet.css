@@ -11,15 +11,22 @@ body {
   z-index: 1;
   position: absolute;
 }
+
 /* 1920 x 1080 */
+/* 1366 x 768 */
 #runway {
   background-color: black;
-  width: 600px;
+  width: 700px;
   height: 300px;
+  left: calc(50vw - 350px);
+  position: absolute;
 }
 
 #notationContainersOuterDiv {
-  background-color: white;
-  width: 1920PX;
-  height: 360px;
+  background-color: black;
+  width: 700PX;
+  height: 450px;
+  left: calc(50vw - 350px);
+  position:absolute;
+  top: 300px;
 }
